@@ -14,7 +14,8 @@ const play = document.getElementById('play')
 const prev = document.getElementById('prev')
 
 // song titles
-const songs = ['power', 'АТВИНТА', 'serpentine', 'Ecstasy', 'apocalypse','вентилятор Салют' , 'grown', 'KORABEL`NAYA PU - DJ MIX НА 9-ОЕ МАЯ', 'chippin-in', 'Mewone - inside' ]
+const songs = ['power', 'АТВИНТА', 'serpentine', 'Ecstasy', 'apocalypse','вентилятор Салют' , 'grown', 'KORABEL`NAYA PU - DJ MIX НА 9-ОЕ МАЯ', 'chippin-in', 'Mewone - inside',
+'SR']
 
 // keep tracks of song
 let songIndex = 0
