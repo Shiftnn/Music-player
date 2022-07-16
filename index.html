@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Music player</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>
+			Music Player <img src="img/favicon.ico" alt="logo" height="30px" />
+		</h1>
+		<div class="container" id="container">
+			<div class="info" id="info">
+				<div class="info-inner">
+					<div class="name" id="name"></div>
+					<div class="progress-container" id="progress-container">
+						<div class="progress" id="progress"></div>
+					</div>
+				</div>
+			</div>
+			<audio src="#" id="audio"></audio>
+			<div class="player" id="player">
+				<img src="#" alt="music-cover" class="disk" id="disk" />
+				<div class="white-space"></div>
+
+				<div class="navigation">
+					<button id="prev" class="action-btn">
+						<i class="fas fa-backward"
+							><img src="img/rewind-button.png" alt=""
+						/></i>
+					</button>
+					<button id="play" class="action-btn action-btn-big">
+						<i class="fas fa-play"
+							><img src="img/play-2.png" alt=""
+						/></i>
+					</button>
+					<button id="next" class="action-btn">
+						<i class="fas fa-forward"
+							><img src="img/forward-button (1).png" alt=""
+						/></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
